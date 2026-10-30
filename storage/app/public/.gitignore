@@ -1,0 +1,6 @@
+*
+!.gitignore
+!posts/
+!posts/*
+!vídeos/
+!vídeos/*

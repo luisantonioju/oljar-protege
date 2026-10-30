@@ -1,0 +1,183 @@
+/* --- ESTILOS MODERNOS PARA A ÁREA DE EXTRAS E MENU --- */
+.extras-navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    position: relative;
+    z-index: 50;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.extras-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.extras-nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.extras-nav-link {
+    color: #64748b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.extras-nav-link:hover,
+.extras-nav-link.active {
+    color: #4f46e5;
+}
+
+.extras-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.extras-user-name {
+    font-weight: 600;
+    color: #1e293b;
+    font-size: 0.95rem;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.extras-logout-btn {
+    background-color: #fee2e2;
+    color: #dc2626;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.extras-logout-btn:hover {
+    background-color: #fecaca;
+}
+
+/* --- CARTÃO PRINCIPAL --- */
+.extras-wrapper {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+    min-height: calc(100vh - 70px);
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.extras-card-modern {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    padding: 45px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.extras-card-modern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #4f46e5, #9333ea, #ec4899);
+}
+
+.badge-restricted {
+    display: inline-block;
+    background: linear-gradient(135deg, #e0e7ff, #ede9fe);
+    color: #4338ca;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 50px;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 16px;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.extras-title-modern {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #0f172a;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.extras-desc-modern {
+    color: #475569;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.extras-actions-modern {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+
+.btn-primary-modern {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px -5px rgba(79, 70, 229, 0.4);
+    transition: all 0.3s ease;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.btn-primary-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px -5px rgba(79, 70, 229, 0.5);
+}
+
+.btn-secondary-modern {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    background-color: #f1f5f9;
+    color: #334155;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.btn-secondary-modern:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    transform: translateY(-2px);
+}
